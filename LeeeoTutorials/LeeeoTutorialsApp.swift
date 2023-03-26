@@ -13,7 +13,7 @@ struct LeeeoTutorialsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ClosureView()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

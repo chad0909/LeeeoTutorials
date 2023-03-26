@@ -13,6 +13,18 @@
 		E513761F29CDC78500E03A07 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E513761E29CDC78500E03A07 /* Preview Assets.xcassets */; };
 		E513762129CDC78500E03A07 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513762029CDC78500E03A07 /* Persistence.swift */; };
 		E513762429CDC78500E03A07 /* LeeeoTutorials.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E513762229CDC78500E03A07 /* LeeeoTutorials.xcdatamodeld */; };
+		E513762B29CE729900E03A07 /* OptionalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513762A29CE729900E03A07 /* OptionalView.swift */; };
+		E513762D29CE78CD00E03A07 /* ClosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513762C29CE78CD00E03A07 /* ClosureView.swift */; };
+		E513762F29CE82D700E03A07 /* StructView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513762E29CE82D700E03A07 /* StructView.swift */; };
+		E513763329CEE18000E03A07 /* ClassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513763229CEE18000E03A07 /* ClassView.swift */; };
+		E513763529CEE92200E03A07 /* OptionalChainingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513763429CEE92200E03A07 /* OptionalChainingView.swift */; };
+		E513763729CEEC4A00E03A07 /* PropertyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513763629CEEC4A00E03A07 /* PropertyView.swift */; };
+		E513763929CEFBD100E03A07 /* MethodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513763829CEFBD100E03A07 /* MethodView.swift */; };
+		E513763B29CF01D300E03A07 /* EnumAfterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513763A29CF01D300E03A07 /* EnumAfterView.swift */; };
+		E513763E29CF08F100E03A07 /* CheckPointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513763D29CF08F100E03A07 /* CheckPointView.swift */; };
+		E513764329CF208700E03A07 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764229CF208700E03A07 /* DividerView.swift */; };
+		E513764529CF350200E03A07 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764429CF350200E03A07 /* ModalView.swift */; };
+		E513764729CF364200E03A07 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764629CF364200E03A07 /* AlertView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +35,18 @@
 		E513761E29CDC78500E03A07 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E513762029CDC78500E03A07 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		E513762329CDC78500E03A07 /* LeeeoTutorials.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LeeeoTutorials.xcdatamodel; sourceTree = "<group>"; };
+		E513762A29CE729900E03A07 /* OptionalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalView.swift; sourceTree = "<group>"; };
+		E513762C29CE78CD00E03A07 /* ClosureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureView.swift; sourceTree = "<group>"; };
+		E513762E29CE82D700E03A07 /* StructView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructView.swift; sourceTree = "<group>"; };
+		E513763229CEE18000E03A07 /* ClassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassView.swift; sourceTree = "<group>"; };
+		E513763429CEE92200E03A07 /* OptionalChainingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalChainingView.swift; sourceTree = "<group>"; };
+		E513763629CEEC4A00E03A07 /* PropertyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyView.swift; sourceTree = "<group>"; };
+		E513763829CEFBD100E03A07 /* MethodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodView.swift; sourceTree = "<group>"; };
+		E513763A29CF01D300E03A07 /* EnumAfterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumAfterView.swift; sourceTree = "<group>"; };
+		E513763D29CF08F100E03A07 /* CheckPointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckPointView.swift; sourceTree = "<group>"; };
+		E513764229CF208700E03A07 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
+		E513764429CF350200E03A07 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		E513764629CF364200E03A07 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +79,10 @@
 		E513761629CDC78300E03A07 /* LeeeoTutorials */ = {
 			isa = PBXGroup;
 			children = (
+				E513763F29CF0FA600E03A07 /* UI2ndLecture */,
 				E513761729CDC78300E03A07 /* LeeeoTutorialsApp.swift */,
 				E513761929CDC78300E03A07 /* ContentView.swift */,
+				E513763C29CF08DC00E03A07 /* Grammar2ndLecture */,
 				E513761B29CDC78500E03A07 /* Assets.xcassets */,
 				E513762029CDC78500E03A07 /* Persistence.swift */,
 				E513762229CDC78500E03A07 /* LeeeoTutorials.xcdatamodeld */,
@@ -71,6 +97,32 @@
 				E513761E29CDC78500E03A07 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E513763C29CF08DC00E03A07 /* Grammar2ndLecture */ = {
+			isa = PBXGroup;
+			children = (
+				E513762A29CE729900E03A07 /* OptionalView.swift */,
+				E513763A29CF01D300E03A07 /* EnumAfterView.swift */,
+				E513763429CEE92200E03A07 /* OptionalChainingView.swift */,
+				E513763629CEEC4A00E03A07 /* PropertyView.swift */,
+				E513763829CEFBD100E03A07 /* MethodView.swift */,
+				E513762C29CE78CD00E03A07 /* ClosureView.swift */,
+				E513762E29CE82D700E03A07 /* StructView.swift */,
+				E513763229CEE18000E03A07 /* ClassView.swift */,
+				E513763D29CF08F100E03A07 /* CheckPointView.swift */,
+			);
+			path = Grammar2ndLecture;
+			sourceTree = "<group>";
+		};
+		E513763F29CF0FA600E03A07 /* UI2ndLecture */ = {
+			isa = PBXGroup;
+			children = (
+				E513764229CF208700E03A07 /* DividerView.swift */,
+				E513764429CF350200E03A07 /* ModalView.swift */,
+				E513764629CF364200E03A07 /* AlertView.swift */,
+			);
+			path = UI2ndLecture;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +195,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E513763B29CF01D300E03A07 /* EnumAfterView.swift in Sources */,
+				E513762D29CE78CD00E03A07 /* ClosureView.swift in Sources */,
+				E513764329CF208700E03A07 /* DividerView.swift in Sources */,
+				E513763729CEEC4A00E03A07 /* PropertyView.swift in Sources */,
 				E513762429CDC78500E03A07 /* LeeeoTutorials.xcdatamodeld in Sources */,
+				E513762F29CE82D700E03A07 /* StructView.swift in Sources */,
+				E513763529CEE92200E03A07 /* OptionalChainingView.swift in Sources */,
+				E513763329CEE18000E03A07 /* ClassView.swift in Sources */,
 				E513762129CDC78500E03A07 /* Persistence.swift in Sources */,
+				E513764529CF350200E03A07 /* ModalView.swift in Sources */,
+				E513763E29CF08F100E03A07 /* CheckPointView.swift in Sources */,
 				E513761A29CDC78300E03A07 /* ContentView.swift in Sources */,
+				E513763929CEFBD100E03A07 /* MethodView.swift in Sources */,
+				E513764729CF364200E03A07 /* AlertView.swift in Sources */,
+				E513762B29CE729900E03A07 /* OptionalView.swift in Sources */,
 				E513761829CDC78300E03A07 /* LeeeoTutorialsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
