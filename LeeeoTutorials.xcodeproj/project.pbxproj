@@ -25,6 +25,8 @@
 		E513764329CF208700E03A07 /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764229CF208700E03A07 /* DividerView.swift */; };
 		E513764529CF350200E03A07 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764429CF350200E03A07 /* ModalView.swift */; };
 		E513764729CF364200E03A07 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764629CF364200E03A07 /* AlertView.swift */; };
+		E57BD14129D31D9000FB0167 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57BD14029D31D9000FB0167 /* TestView.swift */; };
+		E5D9006D29D86918004A413D /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9006C29D86918004A413D /* Function.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		E513764229CF208700E03A07 /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		E513764429CF350200E03A07 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		E513764629CF364200E03A07 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		E57BD14029D31D9000FB0167 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E5D9006C29D86918004A413D /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 				E513761729CDC78300E03A07 /* LeeeoTutorialsApp.swift */,
 				E513761929CDC78300E03A07 /* ContentView.swift */,
 				E513763C29CF08DC00E03A07 /* Grammar2ndLecture */,
+				E5D9006B29D86901004A413D /* AdditionalGrammar */,
 				E513761B29CDC78500E03A07 /* Assets.xcassets */,
 				E513762029CDC78500E03A07 /* Persistence.swift */,
 				E513762229CDC78500E03A07 /* LeeeoTutorials.xcdatamodeld */,
@@ -103,13 +108,13 @@
 			isa = PBXGroup;
 			children = (
 				E513762A29CE729900E03A07 /* OptionalView.swift */,
-				E513763A29CF01D300E03A07 /* EnumAfterView.swift */,
-				E513763429CEE92200E03A07 /* OptionalChainingView.swift */,
-				E513763629CEEC4A00E03A07 /* PropertyView.swift */,
-				E513763829CEFBD100E03A07 /* MethodView.swift */,
 				E513762C29CE78CD00E03A07 /* ClosureView.swift */,
 				E513762E29CE82D700E03A07 /* StructView.swift */,
 				E513763229CEE18000E03A07 /* ClassView.swift */,
+				E513763429CEE92200E03A07 /* OptionalChainingView.swift */,
+				E513763629CEEC4A00E03A07 /* PropertyView.swift */,
+				E513763829CEFBD100E03A07 /* MethodView.swift */,
+				E513763A29CF01D300E03A07 /* EnumAfterView.swift */,
 				E513763D29CF08F100E03A07 /* CheckPointView.swift */,
 			);
 			path = Grammar2ndLecture;
@@ -121,8 +126,17 @@
 				E513764229CF208700E03A07 /* DividerView.swift */,
 				E513764429CF350200E03A07 /* ModalView.swift */,
 				E513764629CF364200E03A07 /* AlertView.swift */,
+				E57BD14029D31D9000FB0167 /* TestView.swift */,
 			);
 			path = UI2ndLecture;
+			sourceTree = "<group>";
+		};
+		E5D9006B29D86901004A413D /* AdditionalGrammar */ = {
+			isa = PBXGroup;
+			children = (
+				E5D9006C29D86918004A413D /* Function.swift */,
+			);
+			path = AdditionalGrammar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +217,8 @@
 				E513762F29CE82D700E03A07 /* StructView.swift in Sources */,
 				E513763529CEE92200E03A07 /* OptionalChainingView.swift in Sources */,
 				E513763329CEE18000E03A07 /* ClassView.swift in Sources */,
+				E57BD14129D31D9000FB0167 /* TestView.swift in Sources */,
+				E5D9006D29D86918004A413D /* Function.swift in Sources */,
 				E513762129CDC78500E03A07 /* Persistence.swift in Sources */,
 				E513764529CF350200E03A07 /* ModalView.swift in Sources */,
 				E513763E29CF08F100E03A07 /* CheckPointView.swift in Sources */,
