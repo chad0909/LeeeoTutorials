@@ -26,6 +26,11 @@
 		E513764529CF350200E03A07 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764429CF350200E03A07 /* ModalView.swift */; };
 		E513764729CF364200E03A07 /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E513764629CF364200E03A07 /* AlertView.swift */; };
 		E57BD14129D31D9000FB0167 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57BD14029D31D9000FB0167 /* TestView.swift */; };
+		E5C5C01B29D90CC200B73936 /* Closure.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C5C01A29D90CC200B73936 /* Closure.swift */; };
+		E5CC201029EA85240035A0CC /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC200F29EA85240035A0CC /* TabView.swift */; };
+		E5CC201229EA879D0035A0CC /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC201129EA879D0035A0CC /* ToggleView.swift */; };
+		E5CC201429EA8A4A0035A0CC /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC201329EA8A4A0035A0CC /* TextFieldView.swift */; };
+		E5CC201629EA96680035A0CC /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CC201529EA96680035A0CC /* SecureFieldView.swift */; };
 		E5D9006D29D86918004A413D /* Function.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9006C29D86918004A413D /* Function.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +55,11 @@
 		E513764429CF350200E03A07 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 		E513764629CF364200E03A07 /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
 		E57BD14029D31D9000FB0167 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		E5C5C01A29D90CC200B73936 /* Closure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Closure.swift; sourceTree = "<group>"; };
+		E5CC200F29EA85240035A0CC /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		E5CC201129EA879D0035A0CC /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
+		E5CC201329EA8A4A0035A0CC /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		E5CC201529EA96680035A0CC /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
 		E5D9006C29D86918004A413D /* Function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Function.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,7 +136,11 @@
 				E513764229CF208700E03A07 /* DividerView.swift */,
 				E513764429CF350200E03A07 /* ModalView.swift */,
 				E513764629CF364200E03A07 /* AlertView.swift */,
+				E5CC200F29EA85240035A0CC /* TabView.swift */,
 				E57BD14029D31D9000FB0167 /* TestView.swift */,
+				E5CC201129EA879D0035A0CC /* ToggleView.swift */,
+				E5CC201329EA8A4A0035A0CC /* TextFieldView.swift */,
+				E5CC201529EA96680035A0CC /* SecureFieldView.swift */,
 			);
 			path = UI2ndLecture;
 			sourceTree = "<group>";
@@ -135,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				E5D9006C29D86918004A413D /* Function.swift */,
+				E5C5C01A29D90CC200B73936 /* Closure.swift */,
 			);
 			path = AdditionalGrammar;
 			sourceTree = "<group>";
@@ -211,15 +226,20 @@
 			files = (
 				E513763B29CF01D300E03A07 /* EnumAfterView.swift in Sources */,
 				E513762D29CE78CD00E03A07 /* ClosureView.swift in Sources */,
+				E5CC201629EA96680035A0CC /* SecureFieldView.swift in Sources */,
 				E513764329CF208700E03A07 /* DividerView.swift in Sources */,
 				E513763729CEEC4A00E03A07 /* PropertyView.swift in Sources */,
 				E513762429CDC78500E03A07 /* LeeeoTutorials.xcdatamodeld in Sources */,
 				E513762F29CE82D700E03A07 /* StructView.swift in Sources */,
 				E513763529CEE92200E03A07 /* OptionalChainingView.swift in Sources */,
 				E513763329CEE18000E03A07 /* ClassView.swift in Sources */,
+				E5CC201429EA8A4A0035A0CC /* TextFieldView.swift in Sources */,
 				E57BD14129D31D9000FB0167 /* TestView.swift in Sources */,
 				E5D9006D29D86918004A413D /* Function.swift in Sources */,
+				E5CC201029EA85240035A0CC /* TabView.swift in Sources */,
 				E513762129CDC78500E03A07 /* Persistence.swift in Sources */,
+				E5C5C01B29D90CC200B73936 /* Closure.swift in Sources */,
+				E5CC201229EA879D0035A0CC /* ToggleView.swift in Sources */,
 				E513764529CF350200E03A07 /* ModalView.swift in Sources */,
 				E513763E29CF08F100E03A07 /* CheckPointView.swift in Sources */,
 				E513761A29CDC78300E03A07 /* ContentView.swift in Sources */,

@@ -9,10 +9,30 @@ import SwiftUI
 
 struct AlertView: View {
     
-    let array1 = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
+    @State var isShowingAlert : Bool = false
     
     var body: some View {
-        Text("g")
+        Button {
+            isShowingAlert = true
+        } label: {
+            Text("Show Alert")
+        }
+        //그냥 완전 기본 틀
+//        .alert(isPresented: $isShowingAlert){
+//            Alert(title: Text("hi"))
+//        }
+        //기본적인 OK버튼이 하나있는 예시
+        //        .alert(isPresented: $isShowingAlert) {
+        //            Alert(title: Text("This is alert"),
+        //            message: Text("MESSAGE"),
+        //                  dismissButton: .default(Text("Leeeo!")))
+        //        }
+        //      OK 와 Cancel이 있는 버튼
+        //        .alert(isPresented: $isShowingAlert) {
+        //            Alert(title: Text("This is Alert"), primaryButton: .default(Text("OK")), secondaryButton: .cancel())
+        //두 개 다 default면 primary가 왼쪽, secondary가 오른쪽이지만 하나라도 .cancel()이 있다면 무조건 cancel이 좌측.
+
+        
     }
 }
 

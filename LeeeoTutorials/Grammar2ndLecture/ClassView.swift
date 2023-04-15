@@ -50,4 +50,4 @@ struct ClassView_Previews: PreviewProvider {
 
 
 // class는 공유할 수 있는 링크를 주는 반면에 struct는 복사된 값을 주는 것.
-//
+// 뭔가 상속이 필요하면 class, 아니면 struct

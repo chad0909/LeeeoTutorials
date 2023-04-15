@@ -8,7 +8,11 @@
 import SwiftUI
 import CoreData
 
+
 struct ContentView: View {
+
+
+    
     @State var fruit : String? = "버튼을 눌러주세요"
     let fruitArray : [Fruits] = [.apple, .banana, .pineapple, .grapes]
     
